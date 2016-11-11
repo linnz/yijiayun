@@ -13,20 +13,20 @@ public class Index {
         JPanel jPanel1=new JPanel(){
             public void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                ImageIcon img = new ImageIcon("4.jpg");
+                ImageIcon img = new ImageIcon("background.jpg");
                 g.drawImage(img.getImage(), 0,0, null);
             }
         };
-        Font font=new Font("Î¢ÈíÑÅºÚ",Font.BOLD,20);
+        Font font=new Font("å¾®è½¯é›…é»‘",Font.BOLD,20);
         JMenuBar jMenuBar=new JMenuBar();
-        JMenu login=new JMenu("µÇÂ¼");
-        JMenu jiapu=new JMenu("ÎÒµÄ¼ÒÆ×");
-        JMenuItem chakan=new JMenuItem("²é¿´¼ÒÆ×");
-        JMenuItem xiugai=new JMenuItem("ÐÞ¸Ä¼ÒÆ×");
+        JMenu login=new JMenu("ç™»å½•");
+        JMenu jiapu=new JMenu("æˆ‘çš„å®¶è°±");
+        JMenuItem chakan=new JMenuItem("æŸ¥çœ‹å®¶è°±");
+        JMenuItem xiugai=new JMenuItem("ä¿®æ”¹å®¶è°±");
         jiapu.add(chakan);
         jiapu.add(xiugai);
-        JMenu jisi=new JMenu("¼Àìë");
-        JMenu exit=new JMenu("ÍË³ö");
+        JMenu jisi=new JMenu("ç¥­ç¥€");
+        JMenu exit=new JMenu("é€€å‡º");
         login.setFont(font);
         jiapu.setFont(font);
         jisi.setFont(font);
